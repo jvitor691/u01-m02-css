@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+#container-display-row { 
+display: flex;
+flex-wrap: wrap;
+border: 1px solid red;
+}
+
+#container-display-row > div{
+    border: 1px solid blue;
+}

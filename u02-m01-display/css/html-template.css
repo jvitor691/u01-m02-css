@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+
+}
+
+#container-main{
+    display: flex;
+    flex-direction: column;
+}
+
+#container-flex-row{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+#container-flex-row > main{
+    background-color: aqua;
+    flex: 1;
+}
+
+#container-flex-row > nav , aside{
+    background-color: antiquewhite;
+    width: 15vw;
+}
+
+ header , footer{
+    background-color: violet;
+    height: 10vh;
+}
+
